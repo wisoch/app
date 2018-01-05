@@ -1,7 +1,7 @@
 <?php
 
 use Zend\Mvc\Application;
-
+echo 123;exit();
 $GLOBALS = include getenv('GLOBAL_CONFIG_FILE');
 
 chdir(dirname(__DIR__));
